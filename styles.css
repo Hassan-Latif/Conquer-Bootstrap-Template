@@ -23,3 +23,15 @@ header {
 .bt{
     margin: 0px 50px 0px 50px;
 }
+
+.cc{
+    background-image: url("img/bg-2.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+.cb{
+    color: #ffffff;
+}
