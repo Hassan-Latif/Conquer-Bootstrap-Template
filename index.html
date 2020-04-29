@@ -5,40 +5,41 @@
     <title>Conquer</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
 </head>
 <body>
    
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-        <div class="collapse navbar-collapse">
-            <ul class=" navbar-nav nav-pills mr auto"> 
-                <li class="nav-ite active"><a href="#" class="nav-link"> Homepage </a>  </li>
-                <li class="nav-item"><a href="#" class="nav-link">About Us</a> </li>
-                <li class="nav-item"><a href="#" class="nav-link">Services</a> </li>
-                <li class="nav-item"><a href="#" class="nav-link">Contacts</a> </li>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div  class="collapse navbar-collapse" id="Navbar">
+            <ul class="navbar-nav ">
+                <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home "></span>Home</a></li>
+                <li class="nav-item"><a class="nav-link" href=""><span class="fa fa-info "></span>About us</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services"><span class="fa fa-list "></span>Services </a></li>
+                <li class="naav-item"><a class="nav-link" href="#contacts"><span class="fa fa-address-card"></span>Contact</a></li> 
+
             </ul>
-            </div>
+        </div>
         </nav>
      
-   
-        <img src="img/bg-1.jpg" alt="forest pic" width="1350" height="590"> 
-   
-   
-   
-   
-    <header >
 
-       
+   
+    <header class="jumbotron" >
         <div class="container">
             <div class="row">
-                <div class="col-sm-12">
+                <div class="col-sm-12 mt-5">
               
-                       
+                       <h2 class="Text Center"> Web page via Bootstrap </h2>
                    
                 </div>
             </div>
         </div>
-     
-
 
     </header>
 
@@ -125,7 +126,7 @@
 
     <!-- Background Image -->
 
-        <div class="container cont cc">
+        <div class="container cont cc" id="services"> 
             <div class="row">
                 <div class="col-sm-12 text-center inner cb">
                     <h1 >Our Services</h1>
@@ -209,12 +210,139 @@
                     </div>
                 </div>
 
+                <div class="contatiner cont picc " id="contacts">
+                    <div class="row">
+                        
+                        <div class="col-md-12 text-center inner">
+                            <h2 class="text-center">Contact Form</h2>
+                        
+                                <p >Nunc diam leo, fringilla vulputate elit lobortis, consectetur vestibulum quam. Sed id <br>
+                                    felis ligula. In euismod libero at magna dapibus, in rutrum velit lacinia. <br>
+                                    Etiam a mi quis arcu varius condimentum.</p>
+                                
+                        </div>
+                    </div>
+                    
+                    <form action="">
+                        <div class="form-group row ">
+                            <div class="col-md-3 offset-3">
+                                <input type="text" name="" id="name" class="form-control bg-light " placeholder="Name">
+                                <br>
+                                <input type="email" name="" id="Email" class="form-control" placeholder="Email">
+                                <br>
+                                <input type="text " class="form-control" placeholder="Enter your subject">
+                            </div>
+                        
+                            <div class="col-md-3">
+                                <textarea name="ra" id="" cols="12" rows="6" class="form-control" placeholder="Enter about yourself"></textarea>
+                                <button type="submit " class="btn btn-dark mt-4 ">Submit</button>
+                            </div>
+    
+                        </div>
+
+
+                    </form>
+                    </div>
+
+                    
+                    <footer id="footer-area" class="mt-4">
+						<div class="container bg-light">
+							<div class="row text-center">
+								<div class="col-sm-12">
+									<div class="footer-content">
+										<h1 class="fontt">Use it free!</h1>
+										<p>“Conquer is free Bootstrap template from templatemo website. 
+											<br>No backlink is required to use this layout.”</p>
+										</div>                
+									</div>
+								</div>
+							</div>
+							<hr>
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-12 text-center">             
+										<p class="copy">Copyright © 2084 Your Company Name 
+                                        
+                                        | Design: templatemo</p>
+									</div>
+								</div>
+							</div>
+						</footer>
+                
+
     
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script>
+
+        // HTML document is loaded. DOM is ready.
+        $(function() {  
+    
+        // Parallax
+            $('.intro-section').parallax({
+                imageSrc: 'img/bg-1.jpg',
+                speed: 0.2
+            });
+            $('.services-section').parallax({
+                imageSrc: 'img/bg-2.jpg',
+                speed: 0.2
+            });
+            $('.contact-section').parallax({
+                imageSrc: 'img/bg-3.jpg',
+                speed: 0.2
+            });    
+    
+            // jQuery Scroll Up / Back To Top Image
+            $.scrollUp({
+                    scrollName: 'scrollUp',      // Element ID
+                    scrollDistance: 300,         // Distance from top/bottom before showing element (px)
+                    scrollFrom: 'top',           // 'top' or 'bottom'
+                    scrollSpeed: 1000,            // Speed back to top (ms)
+                    easingType: 'linear',        // Scroll to top easing (see http://easings.net/)
+                    animation: 'fade',           // Fade, slide, none
+                    animationSpeed: 300,         // Animation speed (ms)		        
+                    scrollText: '', // Text for element, can contain HTML		        
+                    scrollImg: true            // Set true to use image		        
+                });
+    
+            // ScrollUp Placement
+            $( window ).on( 'scroll', function() {
+    
+                // If the height of the document less the height of the document is the same as the
+                // distance the window has scrolled from the top...
+                if ( $( document ).height() - $( window ).height() === $( window ).scrollTop() ) {
+    
+                    // Adjust the scrollUp image so that it's a few pixels above the footer
+                    $('#scrollUp').css( 'bottom', '80px' );
+    
+                } else {      
+                    // Otherwise, leave set it to its default value.
+                    $('#scrollUp').css( 'bottom', '30px' );        
+                }
+            });
+    
+            $('.single-page-nav').singlePageNav({
+                offset: $('.single-page-nav').outerHeight(),
+                speed: 1500,
+                filter: ':not(.external)',
+                updateHash: true
+            });
+    
+            $('.navbar-toggle').click(function(){
+                $('.single-page-nav').toggleClass('show');
+            });
+    
+            $('.single-page-nav a').click(function(){
+                $('.single-page-nav').removeClass('show');
+            });
+            
+        });
+    </script>
+
 </body>
 
 
